@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/font/bootstrap-5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <link rel="stylesheet" href="./assets/css/register-responsive.css">
+</head>
+<body>
+    <header class="header ">
+            <div class="navbar">
+                <a href="loginPage" class="header__logo ">
+                    <img src="./assets/img/logo.png" alt="" class="logo">
+                </a>
+                <a href="loginPage" class="primary-btn ">Login</a>
+            </div>
+    </header>
+
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="container-left offset-xl-1 col-xl-4 offset-md-1 col-md-3 ">
+                    <img src="./assets/img/ojt.png" alt="" class="container-left--img">
+                </div>
+                
+                <div class="container-right offset-xl-1 col-xl-5 offset-md-0 col-md-7 offset-2 col-8 ">
+                    <div class="header-right">COMPANY REGISTRATION</div>
+                    <div class="header-right--step">STEP 1: LOGIN INFORMATION </div>
+                    <div class="right-form">
+
+                        <form action="RegisterCompanyController" method="POST">
+                            <input type="text" name="email" value="" class="right-form__input" placeholder="Email" /> 
+                            <input type="password" name="password" value="" class="right-form__input" placeholder="Password" /> 
+                            <input type="password" name="confirmPassword" value="" class="right-form__input" placeholder="Re-enter Password" /> 
+                            <input type="submit" value="Verify Email" name="btAction" class="right-form__btn primary-btn" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__content">
+           <i class="fa-regular fa-copyright"></i> Copyright 2022,  Developed by <strong> OJT-Team </strong>
+        </div>
+    </footer>
+</body>
+</html>

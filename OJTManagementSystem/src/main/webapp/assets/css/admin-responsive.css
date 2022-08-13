@@ -1,0 +1,33 @@
+/* Responsive ----------------mobile sm max-width: 767px------------- */
+@media (max-width: 767px) {
+    .main-body-aInterAppl__header,
+    .main-body-aPostManage__header,
+    .main-body-aComManage__header,
+    .main-body-aStuManage__header,
+    .main-body-aEval__header{
+        padding-bottom: 30px;
+    }
+    .admin-search-btn,
+    .admin--select,
+    .admin--input{
+        padding: 2px;
+    }
+}
+
+
+/* Responsive ----------------mobile sm  max-width: 767px----------END--- */
+
+/* Responsive ----------------tablet md  width: 768px - 1199px------------- */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .main-body-aInterAppl__header,
+    .main-body-aPostManage__header,
+    .main-body-aComManage__header,
+    .main-body-aStuManage__header,
+    .main-body-aEval__header{
+        padding-bottom: 50px;
+    }
+
+}
+
+
+/* Responsive ----------------tablet md  width: 768px - 1199px---------END---- */

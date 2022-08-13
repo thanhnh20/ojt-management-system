@@ -1,0 +1,67 @@
+/* Responsive ----------------mobile sm max-width: 767px------------- */
+@media (max-width: 767px) {
+    .main-body{
+        margin-top: calc(20px + var(--height-header));
+        padding-top: 0;
+    }
+    .card-visit--img img{
+        height: 120px;
+    }
+
+    .card-visit{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .recom-box{
+        height: 170px;
+        margin: 5px;
+        padding: 5px 0px 10px 5px;
+    }
+    .recom-box__img img{
+        height: 100px;
+    }
+    .recom-box h3{
+        margin-bottom: 10px;
+    }
+    .save-jobs, 
+    .dashboard-card__content,
+    .applied-jobs {
+        padding: 5px;
+    }
+    .student-search-btn,
+    .student--select,
+    .student--input{
+        padding: 2px;
+    }
+
+    .main-body-save__header,
+    .main-body-appl__header{
+        padding-bottom: 30px;
+    }
+
+}
+
+
+/* Responsive ----------------mobile sm  max-width: 767px----------END--- */
+
+/* Responsive ----------------tablet md  width: 768px - 1199px------------- */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .card-visit--img img{
+        height: 200px;
+    }
+    .recom-box__img img{
+        height: 100px;
+    }
+    .recom-box{
+        height: 200px;
+        margin: 5px;
+        padding: 10px 0px 10px 10px;
+    }
+    .main-body-save__header,
+    .main-body-appl__header{
+        padding-bottom: 50px;
+    }
+}
+
+
+/* Responsive ----------------tablet md  width: 768px - 1199px---------END---- */

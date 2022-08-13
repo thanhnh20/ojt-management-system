@@ -1,0 +1,179 @@
+/* main-- */
+.main{
+    padding-top: 30px;
+    background: url("../img/fpt.jpg")  no-repeat center ;
+    background-size: cover;
+    min-height: calc(100vh -  var(--height-header));
+    margin-bottom: 0px;
+}
+    
+/* main header---------------------------------------------------------------- */
+
+.heading{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container__heading{
+    text-align: left;
+    font-size: 2.4rem;
+    padding: 20px;
+}
+
+.main-body{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+/* main header-------------------------END--------------------------------------- */
+
+/* Container-left----------------------------------------------------------------------- */
+
+.container-left{
+    background-color: var(--background-white);
+    border-radius: 10px;
+    min-height: 440px;
+    position: relative;
+}
+
+.heading-btn{
+    margin: 20px 20px 0px 20px;
+    border-bottom: 2px solid var(--text-color-orange);
+    text-align: left;
+    padding-bottom: 9px;
+    
+}
+
+.heading-btn--btn{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-right: 70px; 
+    color: var(--text-color-black);
+    padding-bottom: 7px;
+}
+
+.heading-btn--btn--active{
+    border-bottom: 5px solid var(--text-color-orange);
+    color: var(--text-color-orange);
+}
+
+.heading-btn--btn:hover{
+    border-bottom: 5px solid var(--text-color-orange);
+    color: var(--text-color-orange);
+}
+
+
+.form{
+    text-align: left;
+    padding: 20px;
+}
+
+.form-input{
+    padding: 10px 0 10px 0;
+    width: 95%;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid var(--text-color-orange);
+    font-size: 1.8rem;
+    outline: none;
+}
+
+.form-input:hover{
+    border-bottom: 5px solid var(--text-color-orange);
+    padding-bottom: 6px;
+}
+
+.form-input:focus{
+    border-bottom: 5px solid var(--text-color-orange);
+    padding-bottom: 6px;
+}
+
+.checkbox-btn{
+    margin: 20px 0px 20px 0px;
+    font-size: 1.2rem;
+}
+
+.login-btn{
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: var(--text-color-white);
+    background-color: var(--background-aquar);
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    right: 20px;
+}
+
+.login-btn:hover{
+    color: var(--background-aquar);
+    background-color: var(--text-color-white);
+    border: 1px solid ;
+}
+
+/* Container-left--------------------------------END--------------------------------------- */
+
+/* Container-right----------------------------------------------------------------------- */
+.container-right{
+    background-color: var(--background-white);
+    border-radius: 10px;
+    position: relative;
+}
+.gg-btn{
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    right: 70px;
+}
+
+.google-btn{
+    background-color: var(--background-red);
+    color: var(--text-color-white);
+    font-size: 2rem;
+    padding: 5px;
+    font-weight: 700;
+    border:1px solid transparent;
+    border-radius: 10px;
+   
+    text-decoration: none;
+    text-align: left;
+}
+
+.google-btn:hover .google-logo{
+    border-right: 2px solid var(--text-color-orange);
+}
+
+.google-btn:hover{
+    background-color: var(--text-color-white);
+    color: var(--background-red);
+    border: 1px solid;
+}
+
+
+.google-logo{
+    font-size: 2.4rem;
+    border-right: 2px solid var(--text-color-white);
+    padding: 0px 20px;
+    line-height: 3rem;
+}
+
+.google-content{
+    text-align: center;
+}
+
+
+.container__content{
+    font-size: 2rem;
+    line-height: 60px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom:  80px;
+}
+/* Container-right----------------------------END------------------------------------------- */
+
+
+

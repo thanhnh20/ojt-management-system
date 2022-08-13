@@ -1,0 +1,478 @@
+.main{
+    text-align: center;
+}
+
+
+
+/* main-search----------------------------------------------- */
+.main__search{
+    padding: 10px 100px 10px 100px;
+}
+
+.main__search h2{
+    font-size: 4rem;
+    margin: 30px;
+    font-weight: 600;
+}
+
+.main__search-form input,
+.main__search-form select{
+    padding: 5px;
+    width: 100%;
+    font-size: 1.8rem;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.main__search-form select{
+    padding: 6px 5px 7px 5px;
+}
+.main__search_select option:nth-child(1){
+    background-color: var(--background-gray-a);
+}
+
+.main__company{
+    margin: 50px;
+}
+.main__company h2{
+    font-size: 4rem;
+    margin: 30px;
+    font-weight: 600;
+}
+.card-company{
+    border-radius: 30px;
+    border: 2px solid var(--background-black);
+    margin: 20px;
+    position: relative;
+    padding: 20px;
+    height: 450px;
+}
+
+.card-company:hover{
+    transform: scale(1.05);
+}
+
+.card-company-header{
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--text-color-black-black);
+}
+
+.card-company-body{
+    margin: 10px 0px 70px 30px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.card-company--img{
+    height: 150px;
+    border-radius: 20px;
+    object-fit: fill;
+}
+
+.card-company-btn{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    right: 0px;
+}
+
+.card-company-btn-save{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.hApply-btn{
+    max-width: 50%;
+}
+
+
+
+.form__select option:nth-child(1){
+    background-color: var(--background-gray-a);
+}
+
+.home_see-more{
+    text-align: right;
+}
+
+.home_see-more--btn{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--text-color-gray);
+    font-weight: 500;
+}
+
+.home_see-more--btn:hover{
+    color: var(--text-color-orange);
+}
+
+/* main-search-----------------END------------------------------ */
+
+
+/* main-icon ---------------------------------------------------- */
+.main__company-icon{
+    margin: 50px 100px;
+}
+.main__company-img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--background-black);
+    border-radius: 100% ;
+}
+
+.company__click{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main__company-img:hover{
+    transform: scale(1.05);
+}
+
+.icon-company-link{
+    text-decoration:none;
+}
+/* main-icon -------------------------END--------------------------- */
+
+
+
+/* home Result Page------------------------------------------- */
+.resultpage__header{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 30px 0px 20px 50px;
+}
+.main-body-hResultPage{
+    text-align: center;
+    margin: 0px 50px;
+}
+
+
+.main-body-hResultPage__search td,  .main-body-hResultPage__search tr{
+    border: none;
+}
+
+.main-body-hResultPage__search{
+    font-size: 1.6rem;
+}
+
+.main-body-hResultPage__search input,
+.main-body-hResultPage__search select{
+    width: 100%;
+}
+.main-body-hResultPage__search select{
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+
+.main-body-hResultPage__content{
+    font-size: 1.4rem;
+}
+
+.main-body-hResultPage td:nth-child(1){
+    width: 5%;
+}
+.main-body-hResultPage td:nth-child(2){
+    width: 25%;
+    text-align: left;
+}
+.main-body-hResultPage td:nth-child(3){
+    width: 15%;
+}
+.main-body-hResultPage td:nth-child(4){
+    width: 5%;
+}
+.main-body-hResultPage td:nth-child(5){
+    width: 20%;
+    text-align: left;
+}
+.main-body-hResultPage td:nth-child(6){
+    width: 10%;
+}
+.main-body-hResultPage td:nth-child(7){
+    width: 10%;
+}
+.main-body-hResultPage td:nth-child(8){
+    width: 10%;
+}
+
+.hResultPage-search-btn{
+    font-size: 1.8rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.hResultPage-search-btn:hover{
+    color: var(--background-orange);
+    background-color: var(--text-color-white);
+    border: 1px solid;
+    padding: 0px;
+}
+/* home Result Page--------------END----------------------------- */
+
+/* home Company Post Detail-------------------------------------------- */
+.hCompanyInfor{
+    margin: 50px;
+    
+}
+
+.hCompanyInfor__header{
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 500;
+}
+
+.hCompanyInfor__body{
+    padding-top: 20px;
+    border-top: 1px solid var(--text-color-orange);
+}
+
+.hCompanyInfor__content{
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.hCompanyInfor__body h3 {
+    margin-top: 1rem ;
+}
+
+.hComApplDetail{
+    margin: 50px;
+    text-align: left;
+}
+
+.hComApplDetail__left--header{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.hComApplDetail__left--content{
+    font-size: 1.4rem;
+    margin-right: 30px;
+}
+
+.hCompanyInfor__body--img{
+    object-fit: contain;
+}
+
+.hComApplDetail-btn{
+    display: flex;
+    margin: 30px 0px 0px 20px;
+}
+
+.hComApplDetail-btn--app{
+    margin: 0px;
+   // min-width: 100px;
+    
+}
+.hComApplDetail-btn-save{
+    margin: 10px 20px;
+}
+
+.hComApplDetail__right{
+    background-color: var(--background-orange);
+    border-radius: 20px;
+    padding-bottom: 1px;
+    min-height: 150px;
+}
+
+.hComApplDetail__right--header{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.hComApplDetail__right--card{
+    background-color: var(--background-white);
+    text-decoration:none;
+    display: inline-block;
+    color: var(--text-color-black);
+    margin: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+}
+
+.right--card-save{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.right--card-header{
+    font-size: 1.5rem;
+    padding: 5px 0px;
+    font-weight: 500;
+}
+
+.right--card-body{
+    font-size: 1.2rem;
+}
+
+.right-card_img{
+    height: 150px;
+    padding: 10px;
+}
+.right--card-img{
+    height: 130px;
+    border-radius: 10px;
+}
+
+.hComApplDetail--header{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+/* home Company Post Detail---------------END----------------------------- */
+
+
+
+/* After click------------------------------------------------------ */
+.main-body-cViewStu{
+    text-align: center;
+    padding:20px 100px 0 100px;
+}
+
+.main-body-cViewStu__header{
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.inforStu-left{
+    padding-right: 50px;
+    border-right: 2px solid var(--background-orange);
+}
+
+.inforStu-left--img{
+    width: 100%;
+    border-radius: 30px;
+    margin: 20px;
+    height: 300px;
+}
+
+
+.inforStu-left__content{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.inforStu-right{
+    padding-left: 50px;
+}
+
+.inforStu-right__header{
+    text-align: left;
+    margin: 0 20px 20px 0px;
+    font-weight: 600;
+    font-size: 2rem; 
+}
+
+.inforStu-right__content{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+}
+
+.hPage-stuAppl-input{
+    margin: 5px 0;
+}
+
+.hPage-stuAppl--input{
+    padding: 5px;
+    border-radius: 5px;
+    width: 400px;
+}
+.file-pdf__cViewStu{
+    margin-top: 100px;
+}
+
+.fix--btn{
+    position: fixed;
+    bottom: 150px;
+    right: 50px;
+    width: auto;
+}
+
+.input-file{
+    display: inline-block;
+}
+
+.right-file-input{
+    font-size: 1.8rem;
+    margin: 10px 0 30px 0;
+}
+
+.input-file::before{
+    content: "Choose file";
+    border: 1px solid var(--background-orange);
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.file-input{
+    margin: 30px 5px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.edit-btn:hover{
+    background-color: var(--background-orange);
+    color: var(--text-color-white);
+    transform: scale(1.1);
+}
+
+.exit-btn{
+    background-color: var(--background-white);
+    color: var(--text-color-black);
+    border: 1px solid var(--text-color-black);
+}
+
+.exit-btn:hover{
+    transform: scale(1.1);
+    background-color: var(--background-white);
+    color: var(--text-color-black);
+    border: 1px solid var(--text-color-black);
+}
+
+.upload-btn{
+    margin-top: 30px;
+}
+
+.apply-btn{
+    background-color: var(--background-aquar);
+    color: var(--text-color-white);
+    border: 1px solid var(--background-aquar);
+}
+.apply-btn:hover{
+    background-color: var(--background-aquar);
+    color: var(--text-color-white);
+    transform: scale(1.1);
+}
+
+/* After click-------------------END----------------------------------- */
+
+
+
+
+
+
+
+

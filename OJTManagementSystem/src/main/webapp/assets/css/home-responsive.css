@@ -1,0 +1,176 @@
+/* Responsive ----------------mobile sm max-width: 767px------------- */
+@media (max-width: 767px) {
+    .main__search{
+        padding: 5px 10px 10px 10px;
+    }
+
+    .main__search h2{
+        margin: 10px;
+    }
+
+    .main__company{
+        margin: 20px;
+    }
+    .main__company h2{
+        margin: 10px;
+    }
+    .card-company--img{
+        height: 100px;
+    }
+    
+
+    .resultpage__header{
+        margin: 0px 0px 0px 50px;
+    }
+
+    .hCompanyInfor{
+        margin: 10px 50px;
+        
+    }
+
+    .hComApplDetail{
+        margin: 30px 50px;
+    }
+    .hCompanyInfor__body--img{
+        height: 100px;
+    }
+    
+    .hComApplDetail-btn--app{
+        padding: 5px;
+    }
+
+    .hComApplDetail__right{
+        margin-top: 20px;
+    }
+
+    .main-body-cViewStu{
+        padding: 10px 20px;
+    }
+
+    .main-body-cViewStu__header{
+        padding-bottom: 20px;
+    }
+    .inforStu-left{
+        border-right: none;
+        border-bottom: 1px solid var(--background-orange);
+        padding-right: 0px;
+    }
+
+    .inforStu-left__content {
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    
+    .inforStu-left--img{
+        margin: 0px ;
+        padding: 0px 10px 10px 10px;
+        height: 130px;
+    }
+    
+    .inforStu-right{
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .inforStu-right__header{
+        margin-bottom: 10px;
+    }
+
+    .file-input{
+        margin: 20px;
+    }
+
+    .card-company{
+        height: 300px;
+        padding: 8px;
+        margin: 10px;
+    }
+
+    .card-company-body{
+        margin-left: 20px;
+    }
+    .card-company-btn{
+        bottom: 10px;
+    }
+
+    .card-company-btn-save{
+        bottom: 10px;
+    }
+    .hComApplDetail__left--content{
+        margin-right: 0px;
+    }
+
+    .hComApplDetail-btn{
+        justify-content: center;
+    }
+
+    .right-card_img{
+        height: 110px;
+        padding: 5px;
+    }
+    .right--card-img{
+        height: 100px;
+    }
+
+    .right-card-content{
+        margin-left: 10px;
+        margin-right: -10px;
+    }
+}
+/* Responsive ----------------mobile sm  max-width: 767px----------END--- */
+
+/* Responsive ----------------tablet md  width: 768px - 1199px------------- */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .main__search{
+        padding: 5px 30px 10px 30px;
+    }
+
+    .main__search h2{
+        margin: 20px;
+    }
+
+    .main__company{
+        margin: 30px;
+    }
+    .main__company h2{
+        margin: 20px;
+    }
+
+    .card-company{
+        height: 420px;
+        padding: 12px;
+    }
+
+    .card-company-body{
+        margin-left: 20px;
+    }
+
+    .main-body-cViewStu{
+        padding:20px 10px 0 10px;
+    }
+    
+    .card-company-btn{
+        bottom: 15px;
+    }
+
+    .card-company-btn-save{
+        bottom: 10px;
+    }
+
+    .edit-btn{
+        min-width: 100px;
+    }
+
+    .inforStu-left--img{
+        height: 200px;
+    }
+
+    .right-card_img{
+        height: 130px;
+        padding: 10px;
+    }
+    .right--card-img{
+        height: 110px;
+    }
+}
+/* Responsive ----------------tablet md  width: 768px - 1199px---------END---- */
+

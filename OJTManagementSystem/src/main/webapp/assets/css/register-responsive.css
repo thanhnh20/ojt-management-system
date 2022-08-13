@@ -1,0 +1,58 @@
+/* Responsive ----------------mobile sm max-width: 767px------------- */
+@media (max-width: 767px) {
+   .container-left{
+       display: none;
+   }
+   .container-right{
+       margin-top: 30px;
+   }
+   .header-right{
+       margin: 10px;
+   }
+   .header-right--step{
+       margin: 0px 10px 0px 20px;
+   }
+
+   .right-form{
+       margin: 0;
+       margin-left: 50px;
+   }
+
+   .right-form__input{
+       margin-top: 10px;
+        width: 100%;
+   }
+   .primary-btn{
+        padding: 3px 7px;
+        margin-right: 20px;
+    }
+    .right-form__btn{
+        right:0px;
+        margin-right: 0px;
+
+    }
+}
+/* Responsive ----------------mobile sm  max-width: 767px----------END--- */
+
+/* Responsive ----------------tablet md  width: 768px - 1199px------------- */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .primary-btn{
+        padding: 5px 20px;
+    }
+    .container-left--img{
+        padding: 0px;
+    }
+    .right-form__btn{
+        margin-right: 10px;
+    }
+
+    .header-right--step{
+       margin: 0px 10px 0px 30px;
+    }
+
+    .right-form{
+        margin-top: 20px;
+    }
+}
+/* Responsive ----------------tablet md  width: 768px - 1199px---------END---- */
+

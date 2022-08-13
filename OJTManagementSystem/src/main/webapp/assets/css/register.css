@@ -1,0 +1,138 @@
+
+
+/* General--------------------------------------------- */
+.primary-btn{
+    padding: 10px 30px;
+    margin: auto 30px;
+}
+
+
+/* General------------------END--------------------------- */
+
+
+
+/* main------------------------------------------------  */
+/* .main{
+    position: relative;
+    top: var(--height-header);
+    min-height: calc(100vh - var(--height-footer));
+} */
+
+
+.container-left{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container-left--img{
+    padding: 20px;
+    width: 100%;
+
+}
+
+.container-right{
+    margin-top: auto ;
+    margin-bottom: auto;
+}
+
+.header-right{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.header-right--step{
+    font-size: 2rem;
+    margin: 30px;
+}
+
+.right-form{
+    margin: 50px;
+    position: relative;
+}
+
+.right-form__input{
+    padding: 10px 0 10px 0;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid var(--text-color-orange);
+    font-size: 1.8rem;
+    outline: none;
+}
+
+.right-form__input:hover{
+    border-bottom: 5px solid var(--text-color-orange);
+    padding-bottom: 6px;
+}
+.right-form__input:focus{
+    border-bottom: 5px solid var(--text-color-orange);
+    padding-bottom: 6px;
+}
+
+
+.verify-email{
+    display: block;
+    text-align: right;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.right-form__btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: 0px;
+}
+.end-form-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.back-btn{
+    background-color: var(--btn-back);
+    border: 1px solid var(--text-color-gray);
+}
+
+.back-btn:hover{
+    color: var(--btn-back);
+    background-color: white;
+    border: 1px solid var(--text-color-gray);
+}
+
+
+.input-file{
+    display: inline-block;
+}
+
+.right-file-input{
+
+    font-size: 1.8rem;
+    margin:30px 0 0 0;
+}
+
+.input-file::before{
+    content: "Choose file";
+    border: 1px solid var(--background-orange);
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.righ-form-textarea{
+    width: 95%;
+    height: 130px;
+    resize: none;
+}
+
+.right-form__input option:nth-child(1){
+    background-color: var(--background-gray-a);
+}
+
+select{
+    width: 600px;
+}
+
+/* main-----------------------END-------------------------  */

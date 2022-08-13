@@ -1,0 +1,679 @@
+
+
+/*.accept-btn:hover{
+    background-color: var(--background-orange);
+    color: var(--text-color-white);
+    transform: scale(1.1);
+}
+
+.reject-btn{
+    background-color: var(--background-white);
+    color: var(--text-color-black);
+    border: 1px solid var(--text-color-black);
+}
+
+.reject-btn:hover{
+    transform: scale(1.1);
+    background-color: var(--background-white);
+    color: var(--text-color-black);
+    border: 1px solid var(--text-color-black);
+}*/
+
+/* General------------------------------------------------ */
+.admin-search-btn{
+    font-size: 1.8rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid transparent;
+    display: block;
+}
+
+.admin-search-btn:hover{
+    color: var(--background-orange);
+    background-color: var(--text-color-white);
+    border: 1px solid;
+}
+
+.admin--select {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 100%;
+}
+.admin--input{
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+/* General---------------------END--------------------------- */
+
+/* footer-------------------------------------------- */
+.footer{
+    //position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* footer--------------------END------------------------ */
+
+.main-body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Admin Dashboard----------------------------------------------*/
+.admindashboard{
+            background-color: antiquewhite;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .admindashboard__content{
+            height: 400px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: var(--background-white);
+        }
+
+        .filterdashboard{
+            background-color: white;
+            border-radius: 10px;
+            font-size: 1.4rem;
+        }
+
+        .filterdashboard__select{
+            background-color: transparent;
+            border: none;
+            padding: 2px;
+            margin: 0px 5px;
+            border-bottom: 1px solid var(--background-orange);
+        }
+
+        .filterdashboard__button{
+            padding: 7px 15px;
+            background-color: var(--background-orange);
+            border: 1px solid var(--background-orange);
+            color: white;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .filterdashboard__button:hover{
+            background-color: orangered;
+        }
+
+        .dashboard-card{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            padding: 10px 50px;
+            margin: 10px auto;
+            max-width: 300px;
+        }
+        
+        .dashboard-card:hover{
+            transform: scale(1.05);
+        }
+        
+        .dashboard-card--link{
+            text-decoration: none;
+            color: #000;
+            width: 100%;
+        }
+        
+        .dashboard-card--link:hover{
+            color: #000;
+        }
+        
+        .signed-company{
+            background-color: #4dea4d;
+            padding: 10px 0 10px 0;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
+        .total-student{
+            background-color: orange;
+            padding: 10px 0 10px 0;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
+        .pending-posts{
+            background-color: #ffff00;
+            padding: 10px 0 10px 0;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
+        .unsigned-company{
+            background-color: #ff0000;
+            padding: 10px 0 10px 0;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
+        .dashboard-card__content{
+            background-color: var(--background-gray);
+            padding: 10px 0 10px 0;
+            color: var(--text-color-white);
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+
+/* Admin Dashboard--------------------------END--------------------*/
+
+/* Student Management-------------------------------------------- */
+.main-body-aStuManage{
+    text-align: center;
+}
+
+.main-body-aStuManage__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.main-body-aStuManage__search td,  .main-body-aStuManage__search tr{
+    border: none;
+}
+
+.main-body-aStuManage__search{
+    font-size: 1.6rem;
+}
+
+
+
+.main-body-aStuManage__content{
+    font-size: 1.4rem;
+}
+
+.main-body-aStuManage td:nth-child(1){
+    width: 5%;
+}
+.main-body-aStuManage td:nth-child(2){
+    width: 10%;
+}
+.main-body-aStuManage td:nth-child(3){
+    width: 15%;
+    text-align: left;
+}
+.main-body-aStuManage td:nth-child(4){
+    width: 15%;
+    text-align: left;
+}
+.main-body-aStuManage td:nth-child(5){
+    width: 10%;
+}
+.main-body-aStuManage td:nth-child(6){
+    width: 20%;
+}
+.main-body-aStuManage td:nth-child(7){
+    width: 5%;
+}
+.main-body-aStuManage td:nth-child(8){
+    width: 10%;
+}
+.main-body-aStuManage td:nth-child(9){
+    width: 5%;
+}
+.main-body-aStuManage td:nth-child(10){
+    width: 5%;
+}
+
+.admin__import-file-stu{
+    text-align: right;
+    margin: 20px;
+}
+
+
+.import-file-stu--file{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.all{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(128, 128, 128,0.5);
+    z-index: 10;
+}
+.modal-cus{
+    background-color: white;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+.modal-body{
+    min-height: 50px;
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Student Management----------------END---------------------------- */
+
+/* Company Management-------------------------------------------- */
+.main-body-aComManage{
+    text-align: center;
+}
+
+.main-body-aComManage__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+.main-body-aComManage__search td,  .main-body-aComManage__search tr{
+    border: none;
+}
+
+.main-body-aComManage__search{
+    font-size: 1.6rem;
+}
+
+
+
+.main-body-aComManage__content{
+    font-size: 1.4rem;
+}
+
+.main-body-aComManage td:nth-child(1){
+    width: 5%;
+}
+.main-body-aComManage td:nth-child(2){
+    width: 20%;
+    text-align: left;
+}
+.main-body-aComManage td:nth-child(3){
+    width: 20%;
+    text-align: left;
+}
+.main-body-aComManage td:nth-child(4){
+    width: 10%;
+}
+.main-body-aComManage td:nth-child(5){
+    width: 25%;
+    text-align: left;
+}
+.main-body-aComManage td:nth-child(6){
+    width: 10%;
+}
+.main-body-aComManage td:nth-child(7){
+    width: 10%;
+}
+
+.aComManage-search-btn{
+    font-size: 1.8rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.aComManage-search-btn:hover{
+    color: var(--background-orange);
+    background-color: var(--text-color-white);
+    border: 1px solid;
+    padding: 0px;
+}
+/* Company Management----------------END---------------------------- */
+
+/* Post Management-------------------------------------------- */
+.main-body-aPostManage{
+    text-align: center;
+}
+
+.main-body-aPostManage__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+.main-body-aPostManage__search td,  .main-body-aPostManage__search tr{
+    border: none;
+}
+
+.main-body-aPostManage__search{
+    font-size: 1.6rem;
+}
+
+
+
+.main-body-aPostManage__content{
+    font-size: 1.4rem;
+}
+
+.main-body-aPostManage td:nth-child(1){
+    width: 5%;
+}
+.main-body-aPostManage td:nth-child(2){
+    width: 25%;
+    text-align: left;
+}
+.main-body-aPostManage td:nth-child(3){
+    width: 15%;
+}
+.main-body-aPostManage td:nth-child(4){
+    width: 10%;
+}
+.main-body-aPostManage td:nth-child(5){
+    width: 20%;
+    text-align: left;
+}
+.main-body-aPostManage td:nth-child(6){
+    width: 10%;
+}
+.main-body-aPostManage td:nth-child(7){
+    width: 15%;
+}
+
+.aPostManage-search-btn{
+    font-size: 1.8rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.aPostManage-search-btn:hover{
+    color: var(--background-orange);
+    background-color: var(--text-color-white);
+    border: 1px solid;
+    padding: 0px;
+}
+/* Post Management----------------END---------------------------- */
+
+/* Internship Application -------------------------------------------- */
+
+.main-body-aInterAppl{
+    text-align: center;
+}
+
+.main-body-aInterAppl__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+.main-body-aInterAppl__search td,  .main-body-aInterAppl__search tr{
+    border: none;
+}
+
+.main-body-aInterAppl__search{
+    font-size: 1.6rem;
+}
+
+
+
+.main-body-aInterAppl__content{
+    font-size: 1.4rem;
+}
+
+.main-body-aInterAppl td:nth-child(1){
+    width: 5%;
+}
+.main-body-aInterAppl td:nth-child(2){
+    width: 10%;
+}
+.main-body-aInterAppl td:nth-child(3){
+    width: 20%;
+    text-align: left;
+}
+.main-body-aInterAppl td:nth-child(4){
+    width: 17%;
+    text-align: left;
+}
+.main-body-aInterAppl td:nth-child(5){
+    width: 12%;
+}
+.main-body-aInterAppl td:nth-child(6){
+    width: 12%;
+}
+.main-body-aInterAppl td:nth-child(7){
+    width: 12%;
+}
+.main-body-aInterAppl td:nth-child(8){
+    width: 12%;
+}
+
+.aInterAppl-search-btn{
+    font-size: 1.8rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.aInterAppl-search-btn:hover{
+    color: var(--background-orange);
+    background-color: var(--text-color-white);
+    border: 1px solid;
+    padding: 0px;
+}
+/* Internship Application ----------------END---------------------------- */
+
+
+/* Evalution  -------------------------------------------- */
+.main-body-aEval{
+    text-align: center;
+}
+
+.main-body-aEval__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+.main-body-aEval__search td,  .main-body-aEval__search tr{
+    border: none;
+}
+
+.main-body-aEval__search{
+    font-size: 1.6rem;
+}
+
+
+
+
+.main-body-aEval__content{
+    font-size: 1.4rem;
+}
+
+
+.main-body-aEval td:nth-child(1){
+    width: 5%;
+}
+.main-body-aEval td:nth-child(2){
+    width: 10%;
+}
+.main-body-aEval td:nth-child(3){
+    width: 20%;
+    text-align: left;
+}
+.main-body-aEval td:nth-child(4){
+    width: 15%;
+    text-align: left;
+}
+.main-body-aEval td:nth-child(5){
+    width: 15%;
+    text-align: left;
+}
+.main-body-aEval td:nth-child(6){
+    width: 20%;
+    text-align: left;
+}
+.main-body-aEval td:nth-child(7){
+    width: 5%;
+}
+.main-body-aEval td:nth-child(8){
+    width: 10%;
+}
+
+
+.aEval-search-btn{
+    font-size: 1.8rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.aEval-search-btn:hover{
+    color: var(--background-orange);
+    background-color: var(--text-color-white);
+    border: 1px solid;
+    padding: 0px;
+}
+
+.export__file-student{
+    margin: 20px;
+    text-align: right;
+}
+
+.export__file-student a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.export__file-student a i{
+    font-size: 2.5rem;
+}
+/* Evalution  ----------------END---------------------------- */
+
+/* View Post  -------------------------------------------- */
+.main-body-aViewPost{
+    margin: 0 100px 50px 100px;
+    font-size: 1.6rem;
+}
+
+.aViewPost__header{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.aViewPost-btn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* View Post  ----------------END---------------------------- */
+
+
+/* Main-body ------------------------Add Student----------------------- */
+.main-body-aAddStu{
+    text-align: center;
+}
+
+.main-body-aAddStu__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.aAddStu__input{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.aAddStu--input{
+    text-align: center;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--text-color-orange);
+    font-weight: 500;
+}
+.aAddStu--input:focus{
+    padding-bottom: 1px;
+    border-bottom: 5px solid var(--text-color-orange);
+}
+
+.aAddStu--input:hover{
+    padding-bottom: 1px;
+    border-bottom: 5px solid var(--text-color-orange);
+}
+
+.aAddStu--input-textarea{
+    text-align: left;
+    resize: none;
+    margin-top: 10px;
+}
+.aAddStu--label{
+    text-align: left;
+    font-weight: 600;
+}
+
+.aAddStu-edit-btn{
+    font-size: 2rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 50px auto 0px auto;
+}
+
+.aAddStu-edit--input{
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    color: var(--text-color-white);
+}
+
+.aAddStu-edit-btn:hover{
+    background-color: var(--text-color-white);
+    color: var(--background-orange);
+    border: 1px solid;
+}
+
+.aAddStu-edit-btn:hover .aAddStu-edit--input{
+    color: var(--background-orange);
+}
+
+
+
+.input-file{
+    display: inline-block;
+}
+
+.aAddStu-file-input{
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.input-file::before{
+    content: "Choose file";
+    border: 1px solid var(--background-orange);
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Main-body ------------------------Add Student------END------------------ */

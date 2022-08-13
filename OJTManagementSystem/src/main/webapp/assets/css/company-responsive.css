@@ -1,0 +1,111 @@
+/* Responsive ----------------mobile sm max-width: 767px------------- */
+@media (max-width: 767px) {
+    .main-body-cViewStu__header,
+    .main-body-cPostManage__header,
+    .main-body-cInternManage__header,
+    .main-body-cApplManage__header,
+    .main-body-cprofile__header{
+        padding-bottom: 30px;
+    }
+    .admin-search-btn,
+    .admin--select,
+    .admin--input{
+        padding: 2px;
+    }
+    .inforStu-left{
+        border-right: none;
+        border-bottom: 1px solid var(--background-orange);
+        padding-right: 0px;
+    }
+
+    .inforStu-left__content {
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    
+    .inforStu-left--img{
+        margin: 0px ;
+        padding: 0px 10px 10px 10px;
+        height: 130px;
+    }
+    
+    .inforStu-right{
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .inforStu-right__header{
+        margin-bottom: 10px;
+    }
+    
+    .main-body{
+        padding-top: calc(var(--height-header) + 20px);
+    }
+
+    .card-visit--img img{
+        height: 100px;
+    }
+
+    .card-visit-btn{
+        padding: 5px;
+    }
+   
+
+    .cActive-jobs{
+        margin: 20px;
+    }
+    .cActive-box__img img{
+        height: 100px;
+    }
+
+    .cActive-box{
+        height: 170px;
+        margin: 5px;
+        padding: 5px 0px 10px 5px;
+    }
+    .main-body-cViewStu {
+        padding: 10px 20px;
+    }
+}
+
+
+/* Responsive ----------------mobile sm  max-width: 767px----------END--- */
+
+/* Responsive ----------------tablet md  width: 768px - 1199px------------- */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .main-body-cViewStu__header,
+    .main-body-cPostManage__header,
+    .main-body-cInternManage__header,
+    .main-body-cApplManage__header,
+    .main-body-cprofile__header{
+        padding-bottom: 50px;
+    }
+    .inforStu-left--img{
+        height: 200px;
+    }
+
+    .card-visit--img img{
+        height: 150px;
+    }
+    .cActive-jobs{
+        margin: 30px;
+    }
+    .cActive-box__img img{
+        height: 100px;
+    }
+    .cActive-box{
+        height: 200px;
+        margin: 5px;
+        padding: 10px 0px 10px 10px;
+    }
+
+    
+    .main-body-cViewStu {
+        padding: 20px 10px 0 10px;
+    }
+    .inforStu-left{
+        padding-right: 20px;
+    }
+}
+
+
+/* Responsive ----------------tablet md  width: 768px - 1199px---------END---- */

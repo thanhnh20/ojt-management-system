@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="OJTManagementSystem" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+<<<<<<< HEAD
+      <module name="OJTManagementSystem" options="-endorseddirs &quot;F:\OJT Management\OJT Management System\OJTManagementSystem\OJTManagementSystem\target/endorsed&quot;" />
+=======
+      <module name="OJTManagementSystem" options="-endorseddirs E:\OJTManagementSystem_Main\OJTManagementSystem\target/endorsed" />
+>>>>>>> cb0376207e7f886ecc03428d63f9baec4248040e
+    </option>
+  </component>
+</project>

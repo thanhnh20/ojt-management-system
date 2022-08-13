@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+        <link rel="stylesheet" href="./assets/font/bootstrap-5.2.0-beta1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/login.css">
+        <link rel="stylesheet" href="./assets/css/login-responsive.css">
+    </head>
+    <body>
+        <header class="header ">
+
+            <div class="navbar">
+                <a href="" class="header__logo ">
+                    <img src="./assets/img/logo.png" alt="" class="logo">
+                </a>
+
+            </div>
+        </header>
+
+        <div class="main">
+
+            <h1 class="heading">Welcome to FPT University HCM</h1>
+            <div class="row main-body row-cols-sm-1">
+                <div class="container-left offset-xl-1 col-xl-4 offset-md-1 col-md-5  col-12">
+                    <h2 class="container__heading">Company</h2>
+                    <div class="heading-btn">
+                        <a href="" class="heading-btn--btn heading-btn--btn--active">Login</a>
+
+                        <a href="RegisterPage1" class="heading-btn--btn">Sign Up</a>
+                    </div>
+
+                    <div class="form">
+                        <form action="loginAccountsController" method="post">
+                            <input type="text" class="form-input" name="txtEmail" value="" placeholder="Enter your email"> <br>
+
+                            <input type="password" class="form-input" name="txtPassword" value="" placeholder="Enter your password"> 
+
+                            <input type="submit" value="Login" class="login-btn">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="container-right order-1 offset-xl-1 col-xl-5 order-xl-2 offset-md-4 col-md-7  col-12">
+                    <h2 class="container__heading">FPT University</h2>
+                    <p class="container__content">
+                        Job information website for FPT University students: <br>
+                        - Many companies to choose <br>
+                        - Moderated by the school <br>
+                        - Major: SE, English, ......
+                    </p>
+                    <div class="gg-btn">
+                        <a href="https://accounts.google.com/o/oauth2/auth?scope=email%20profile%20openid&redirect_uri=http://localhost:8080/OJTManagementSystem/LoginGoogleServlet&response_type=code&client_id=206603271676-8up4i9nf258hmlcol6khi7hcfkf7ibcn.apps.googleusercontent.com&approval_prompt=force" 
+                           class="google-btn row">
+                            <i class="fab fa-google google-logo col-2 "></i>
+                            <span class="google-content col-10 ">Login email @fpt.edu.vn</span>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <footer class="footer">
+            <div class="footer__content">
+                <i class="fa-regular fa-copyright"></i> Copyright 2022,  Developed by <strong> OJT-Team </strong>
+            </div>      
+        </footer>
+    </body>
+</html>
+

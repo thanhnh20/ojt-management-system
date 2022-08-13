@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/OJTManagementSystem">
+    <Resource auth="Container" type="javax.sql.DataSource" name="DBCONNECTION"
+              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+              username="sa"
+              password="12345" 
+              url="jdbc:sqlserver://localhost:1433;databaseName=OJTManagement" 
+    />
+</Context>

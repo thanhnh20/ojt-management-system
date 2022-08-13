@@ -1,0 +1,454 @@
+/* footer-------------------------------------------- */
+.footer{
+    //position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* footer--------------------END------------------------ */
+
+
+/* General----------------------------------------------------  */
+.student-search-btn{
+    font-size: 1.8rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid transparent;
+    display: block;
+}
+
+.student-search-btn:hover{
+    color: var(--background-orange);
+    background-color: var(--text-color-white);
+    border: 1px solid;
+}
+
+.student--select {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 100%;
+}
+.student--input{
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* General------------------------END----------------------------  */
+
+
+
+/* Main-body-------------------Dashboard---------------------------------- */
+.main-body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.dashboard-card{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.dashboard-card:hover{
+    transform: scale(1.05);
+}
+
+.dashboard-card--link{
+    text-decoration: none;
+    color: #000;
+}
+
+.dashboard-card--link:hover{
+    color: #000;
+}
+.save-jobs{
+    background-color: #ffff00;
+    padding: 10px 0 10px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.applied-jobs{
+    background-color: #4dea4d;
+    padding: 10px 0 10px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.dashboard-card__content{
+    background-color: var(--background-gray);
+    padding: 10px 0 10px 0;
+    color: var(--text-color-white);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-visit{
+    text-align: center;
+    background-color: var(--background-gray-a);
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-visit__header{
+    font-size: 1.8rem;
+    text-align: left;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.card-visit--img img{
+    border-radius: 10px ;
+    height: 250px;
+    object-fit: fill;
+}
+
+.card-vist__content{
+    text-align: left;
+    line-height: 2rem;
+} 
+
+.card-vist__content h3{
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.card-vist__content p{
+    font-size: 1.6rem;
+}
+
+
+.card-visit-btn{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.recom-jobs{
+    margin: 50px;
+    background-color: var(--background-gray-a);
+}
+
+.recom-header{
+    padding: 20px 0px 0px 20px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.recom-box{
+    margin: 20px;
+    padding: 20px;
+    padding-right: 0px;
+    border-bottom: 1px solid var(--background-gray);
+    height: 250px;
+}
+
+.recom-box-content{
+    line-height: 2rem;
+}
+
+.recom-box a{
+    text-decoration: none;
+}
+
+.recom-box h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.recom-box-content p{
+    font-size: 1.5rem;
+}
+
+.recom__see-more--btn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+    text-align: right;
+}
+.recom--more--btn{    
+    cursor: pointer;
+    text-decoration: none;
+    color: #808080;
+    margin-right: 10px;
+}
+
+
+.recom--more--btn:hover{
+    color: var(--text-color-orange);
+}
+
+.recom-box__img img {
+    height: 120px;
+}
+
+/* Main-body-----------Dashboard------END------------------------------------ */
+
+
+
+
+/* Main-body ----------------------Profile-------------------------- */
+.main-body-profile{
+    text-align: center;
+}
+
+.main-body-profile__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.profile__input{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.profile--input{
+    text-align: center;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--text-color-orange);
+    font-weight: 500;
+}
+
+.profile--input-none-hover{
+    text-align: center;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--text-color-orange);
+    font-weight: 500;
+    cursor: context-menu;
+}
+
+.profile--input:focus{
+    padding-bottom: 1px;
+    border-bottom: 5px solid var(--text-color-orange);
+}
+
+.profile--input:hover{
+    padding-bottom: 1px;
+    border-bottom: 5px solid var(--text-color-orange);
+}
+.profile--label{
+    text-align: left;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.profile-edit-btn{
+    font-size: 2rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    cursor: pointer;
+    margin: 50px auto 0px auto;
+}
+
+.profile-edit--input{
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    color: var(--text-color-white);
+}
+
+
+
+.profile-edit-btn:hover .profile-edit--input{
+    color: var(--background-orange);
+}
+
+.input-file{
+    display: inline-block;
+}
+
+.input-file::before{
+    content: "Choose file";
+    border: 1px solid var(--background-orange);
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Main-body -----------------------Profile-------END------------------ */
+
+/* Main-body ---------------------------Save Jobs--------------------- */
+.main-body-save{
+    text-align: center;
+}
+
+.main-body-save__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+.main-body-save__search td,  .main-body-save__search tr{
+    border: none;
+}
+
+.main-body-save__search{
+    font-size: 1.6rem;
+}
+
+
+
+
+.main-body-save__content{
+    font-size: 1.6rem;
+}
+
+.main-body-save td:nth-child(1){
+    width: 5%;
+}
+.main-body-save td:nth-child(2){
+    width: 25%;
+    text-align: left;
+}
+.main-body-save td:nth-child(3){
+    width: 20%;
+    text-align: left;
+}
+.main-body-save td:nth-child(4){
+    width: 10%;
+}
+.main-body-save td:nth-child(5){
+    width: 15%;
+}
+.main-body-save td:nth-child(6){
+    width: 15%;
+}
+.main-body-save td:nth-child(7){
+    width: 10%;
+}
+
+.save-search-btn{
+    font-size: 1.8rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    border-radius: 10px;
+    padding: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.save-search-btn:hover{
+    color: var(--background-orange);
+    background-color: var(--text-color-white);
+    border: 1px solid;
+    padding: 0px;
+}
+
+
+/* Main-body -------------------------Save Jobs-----END------------------ */
+
+/* Main-body -----------------------Applied Jobs------------------------- */
+.main-body-appl{
+    text-align: center;
+}
+
+.main-body-appl__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+.main-body-appl__search td,  .main-body-appl__search tr{
+    border: none;
+}
+
+.main-body-appl__search{
+    font-size: 1.6rem;
+}
+
+
+
+.main-body-appl__content{
+    font-size: 1.6rem;
+}
+
+.main-body-appl td:nth-child(1){
+    width: 5%;
+}
+.main-body-appl td:nth-child(2){
+    width: 20%;
+    text-align: left;
+}
+.main-body-appl td:nth-child(3){
+    width: 15%;
+    text-align: left;
+}
+.main-body-appl td:nth-child(4){
+    width: 10%;
+}
+.main-body-appl td:nth-child(5){
+    width: 15%;
+}
+.main-body-appl td:nth-child(6){
+    width: 15%;
+}
+.main-body-appl td:nth-child(7){
+    width: 10%;
+}
+.main-body-appl td:nth-child(7){
+    width: 10%;
+}
+
+
+
+/* Main-body -----------------------Applied Jobs-------END------------------ */
+
+
+/* Main-body -------------------Review----------------------------- */
+.main-body-review{
+    text-align: center;
+}
+
+.main-body-review__header{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.review__input{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.review--input{
+    text-align: center;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--text-color-orange);
+}
+
+.review--label{
+    text-align: left;
+    font-weight: 600;
+}
+
+.review-edit-btn{
+    font-size: 2rem;
+    color: var(--text-color-white);
+    background-color: var(--background-orange);
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 50px auto 0px auto;
+}
+
+.review--input--evaluate{
+    text-align: left;
+}
+/* Main-body ------------------------Review------END------------------ */
